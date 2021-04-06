@@ -4,7 +4,7 @@ import yaml
 
 
 def main():
-  data = get_data("/home/thomas/Documents/mes-aides.org/Jeunes/bourse.ods")
+  data = get_data("bourse.ods")
   pprint(data)
 
   dates = list(data.keys())
